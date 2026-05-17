@@ -1,0 +1,9 @@
+# Reci GitHub-u da potpuno ignoriše Python skripte u statistici jezika
+python_skripta/* linguist-documentation=true
+
+# Ako slučajno detektuje sam CSV dataset kao kod ili ga broji, označi ga kao podatke
+dataset/* linguist-vendored=true
+
+# Možeš i eksplicitno naterati GitHub da prepozna tvoje glavne jezike
+*.cs linguist-detectable=true
+*.js linguist-detectable=true
