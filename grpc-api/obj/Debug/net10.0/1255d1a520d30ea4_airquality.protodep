@@ -1,0 +1,2 @@
+obj/Debug/net10.0/Protos/Airquality.cs \
+obj/Debug/net10.0/Protos/AirqualityGrpc.cs: Protos/airquality.proto

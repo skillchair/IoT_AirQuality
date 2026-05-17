@@ -1,0 +1,132 @@
+syntax = "proto3";
+
+option csharp_namespace = "AirQualityGrpc";
+
+package airquality;
+
+// ─── SERVIS ───────────────────────────────────────────────────────────────────
+
+service AirQualityService {
+  // Scenario A – upis merenja
+  rpc IngestMeasurement (IngestMeasurementRequest) returns (IngestMeasurementResponse);
+
+  // Čitanje
+  rpc GetMeasurementById  (GetByIdRequest)     returns (MeasurementResponse);
+  rpc GetMeasurements     (GetMeasurementsRequest) returns (MeasurementListResponse);
+  rpc GetByDevice         (GetByDeviceRequest) returns (MeasurementListResponse);
+
+  // Scenario C – agregacije
+  rpc GetAggregates (AggregateRequest) returns (AggregateListResponse);
+}
+
+// ─── ZAJEDNIČKI TIP ───────────────────────────────────────────────────────────
+
+message Measurement {
+  int64  id                 = 1;
+  string device_id          = 2;
+  string measurement_time   = 3;  // ISO 8601 string
+
+  double co_gt              = 4;
+  double pt08_s1_co         = 5;
+  double nmhc_gt            = 6;
+  double c6h6_gt            = 7;
+  double pt08_s2_nmhc       = 8;
+  double nox_gt             = 9;
+  double pt08_s3_nox        = 10;
+  double no2_gt             = 11;
+  double pt08_s4_no2        = 12;
+  double pt08_s5_o3         = 13;
+
+  double temperature        = 14;
+  double relative_humidity  = 15;
+  double absolute_humidity  = 16;
+}
+
+// ─── INGEST (Scenario A) ──────────────────────────────────────────────────────
+
+message IngestMeasurementRequest {
+  string device_id          = 1;
+  string measurement_time   = 2;
+
+  double co_gt              = 3;
+  double pt08_s1_co         = 4;
+  double nmhc_gt            = 5;
+  double c6h6_gt            = 6;
+  double pt08_s2_nmhc       = 7;
+  double nox_gt             = 8;
+  double pt08_s3_nox        = 9;
+  double no2_gt             = 10;
+  double pt08_s4_no2        = 11;
+  double pt08_s5_o3         = 12;
+
+  double temperature        = 13;
+  double relative_humidity  = 14;
+  double absolute_humidity  = 15;
+}
+
+message IngestMeasurementResponse {
+  int64  id      = 1;
+  bool   success = 2;
+}
+
+// ─── GET BY ID ────────────────────────────────────────────────────────────────
+
+message GetByIdRequest {
+  int64 id = 1;
+}
+
+message MeasurementResponse {
+  Measurement measurement = 1;
+  bool        found       = 2;
+}
+
+// ─── GET ALL ──────────────────────────────────────────────────────────────────
+
+message GetMeasurementsRequest {
+  string from      = 1;  // opciono, ISO 8601
+  string to        = 2;  // opciono, ISO 8601
+  int32  page      = 3;
+  int32  page_size = 4;
+}
+
+message MeasurementListResponse {
+  repeated Measurement measurements = 1;
+  int32                total        = 2;
+  int32                page         = 3;
+  int32                page_size    = 4;
+}
+
+// ─── GET BY DEVICE ────────────────────────────────────────────────────────────
+
+message GetByDeviceRequest {
+  string device_id = 1;
+  string from      = 2;  // opciono
+  string to        = 3;  // opciono
+  int32  page      = 4;
+  int32  page_size = 5;
+}
+
+// ─── AGGREGATE (Scenario C) ───────────────────────────────────────────────────
+
+message AggregateRequest {
+  string from      = 1;  // opciono
+  string to        = 2;  // opciono
+  string device_id = 3;  // opciono
+  string group_by  = 4;  // "hour" ili "day"
+}
+
+message AggregateResult {
+  string period              = 1;
+  int32  count               = 2;
+  double avg_temperature     = 3;
+  double avg_relative_humidity = 4;
+  double avg_co_gt           = 5;
+  double avg_nox_gt          = 6;
+  double avg_no2_gt          = 7;
+  double min_temperature     = 8;
+  double max_temperature     = 9;
+}
+
+message AggregateListResponse {
+  repeated AggregateResult results = 1;
+}

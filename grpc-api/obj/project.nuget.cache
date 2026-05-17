@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "iQGZXTtd4J8=",
+  "success": true,
+  "projectFilePath": "/home/strucnjak/iot-airquality-project/grpc-api/grpc-api.csproj",
+  "expectedPackageFiles": [
+    "/home/strucnjak/.nuget/packages/google.protobuf/3.27.0/google.protobuf.3.27.0.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/grpc.aspnetcore/2.64.0/grpc.aspnetcore.2.64.0.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/grpc.aspnetcore.server/2.64.0/grpc.aspnetcore.server.2.64.0.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/grpc.aspnetcore.server.clientfactory/2.64.0/grpc.aspnetcore.server.clientfactory.2.64.0.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/grpc.core.api/2.64.0/grpc.core.api.2.64.0.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/grpc.net.client/2.64.0/grpc.net.client.2.64.0.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/grpc.net.clientfactory/2.64.0/grpc.net.clientfactory.2.64.0.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/grpc.net.common/2.64.0/grpc.net.common.2.64.0.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/grpc.tools/2.64.0/grpc.tools.2.64.0.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/microsoft.entityframeworkcore/10.0.7/microsoft.entityframeworkcore.10.0.7.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.7/microsoft.entityframeworkcore.abstractions.10.0.7.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.7/microsoft.entityframeworkcore.analyzers.10.0.7.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.4/microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/npgsql/10.0.2/npgsql.10.0.2.nupkg.sha512",
+    "/home/strucnjak/.nuget/packages/npgsql.entityframeworkcore.postgresql/10.0.1/npgsql.entityframeworkcore.postgresql.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

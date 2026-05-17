@@ -1,0 +1,139 @@
+================================================================
+  REST API – AirQuality IoT
+  ASP.NET Core | PostgreSQL | Swagger: http://localhost:5155/swagger
+================================================================
+
+BASE URL: http://localhost:5155/api/measurements
+
+----------------------------------------------------------------
+1. POST /api/measurements
+   Scenario: A – High-Frequency Ingestion
+   Opis:     Upis novog merenja (simulacija IoT uređaja)
+
+   Body (JSON):
+   {
+     "deviceId":         "SENSOR_ITALY_01",
+     "measurementTime":  "2004-03-10T18:00:00",
+     "coGt":             2.6,
+     "pt08S1Co":         1360,
+     "nmhcGt":           150,
+     "c6H6Gt":           11.9,
+     "pt08S2Nmhc":       1046,
+     "noxGt":            166,
+     "pt08S3Nox":        1056,
+     "no2Gt":            113,
+     "pt08S4No2":        1692,
+     "pt08S5O3":         1268,
+     "temperature":      13.6,
+     "relativeHumidity": 48.9,
+     "absoluteHumidity": 0.7578
+   }
+
+   Response: 201 Created + upisano merenje sa dodeljenim ID-em
+   Greška:   400 Bad Request (neispravan body)
+
+----------------------------------------------------------------
+2. GET /api/measurements
+   Opis: Sva merenja sa opcionim filterom po vremenu i paginacijom
+
+   Query parametri (svi opcioni):
+     from     – donja granica vremena  (npr. 2004-03-10T00:00:00)
+     to       – gornja granica vremena (npr. 2004-03-11T00:00:00)
+     page     – broj stranice          (default: 1)
+     pageSize – veličina stranice      (default: 50)
+
+   Primeri:
+     GET /api/measurements
+     GET /api/measurements?page=2&pageSize=100
+     GET /api/measurements?from=2004-03-10T00:00:00&to=2004-03-11T00:00:00
+
+   Response: 200 OK
+   {
+     "total":    9357,
+     "page":     1,
+     "pageSize": 50,
+     "data":     [ ... ]
+   }
+
+----------------------------------------------------------------
+3. GET /api/measurements/{id}
+   Opis: Jedno merenje po ID-u
+
+   Parametri:
+     id – long, ID merenja (npr. 1, 42, 9357)
+
+   Primer:
+     GET /api/measurements/1
+
+   Response: 200 OK – objekat merenja
+   Greška:   404 Not Found – ne postoji merenje sa tim ID-em
+
+----------------------------------------------------------------
+4. GET /api/measurements/device/{deviceId}
+   Opis: Sva merenja konkretnog uređaja, opcioni filter po vremenu
+
+   Parametri:
+     deviceId – string, ID uređaja (npr. SENSOR_ITALY_01)
+
+   Query parametri (svi opcioni):
+     from     – donja granica vremena
+     to       – gornja granica vremena
+     page     – broj stranice (default: 1)
+     pageSize – veličina stranice (default: 50)
+
+   Primeri:
+     GET /api/measurements/device/SENSOR_ITALY_01
+     GET /api/measurements/device/SENSOR_ITALY_01?from=2004-03-10T00:00:00&to=2004-03-11T00:00:00
+
+   Response: 200 OK
+   {
+     "total":    9357,
+     "page":     1,
+     "pageSize": 50,
+     "data":     [ ... ]
+   }
+
+----------------------------------------------------------------
+5. GET /api/measurements/aggregate
+   Scenario: C – Heavy Querying
+   Opis:     Agregacije (avg/min/max) grupisane po satu ili danu
+
+   Query parametri:
+     from      – donja granica vremena  (opciono)
+     to        – gornja granica vremena (opciono)
+     deviceId  – filter po uređaju      (opciono)
+     groupBy   – "hour" ili "day"       (default: "hour")
+
+   Primeri:
+     GET /api/measurements/aggregate?groupBy=day
+     GET /api/measurements/aggregate?from=2004-03-10T00:00:00&to=2004-03-31T00:00:00&groupBy=hour
+     GET /api/measurements/aggregate?deviceId=SENSOR_ITALY_01&groupBy=day
+
+   Response: 200 OK
+   [
+     {
+       "period":              "2004-03-10T18:00:00",
+       "count":               1,
+       "avgTemperature":      13.6,
+       "avgRelativeHumidity": 48.9,
+       "avgCoGt":             2.6,
+       "avgNoxGt":            166.0,
+       "avgNo2Gt":            113.0,
+       "minTemperature":      13.6,
+       "maxTemperature":      13.6
+     },
+     ...
+   ]
+
+================================================================
+  HTTP STATUS KODOVI
+================================================================
+  200 OK          – uspešno čitanje
+  201 Created     – uspešno kreiranje (POST)
+  400 Bad Request – neispravan request body
+  404 Not Found   – resurs ne postoji
+
+================================================================
+  SWAGGER UI
+  http://localhost:5155/swagger
+================================================================

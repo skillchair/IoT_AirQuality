@@ -1,0 +1,85 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: airquality-postgres
+
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: airqualitydb
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db:/docker-entrypoint-initdb.d
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d airqualitydb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  rest-api:
+    build:
+      context: ./rest-api
+      dockerfile: Dockerfile
+
+    container_name: airquality-rest
+
+    environment:
+      ConnectionStrings__DefaultConnection: "Host=postgres;Port=5432;Database=airqualitydb;Username=postgres;Password=postgres"
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+
+    ports:
+      - "8080:8080"
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  grpc-api:
+    build:
+      context: ./grpc-api
+      dockerfile: Dockerfile
+
+    container_name: airquality-grpc
+
+    environment:
+      ConnectionStrings__DefaultConnection: "Host=postgres;Port=5432;Database=airqualitydb;Username=postgres;Password=postgres"
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8081
+
+    ports:
+      - "8081:8081"
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  graphql-api:
+    build:
+      context: ./graphql-api
+      dockerfile: Dockerfile
+
+    container_name: airquality-graphql
+
+    environment:
+      DB_HOST:     postgres
+      DB_PORT:     "5432"
+      DB_NAME:     airqualitydb
+      DB_USER:     postgres
+      DB_PASSWORD: postgres
+      PORT:        "4000"
+
+    ports:
+      - "4000:4000"
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

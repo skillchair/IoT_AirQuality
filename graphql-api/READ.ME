@@ -1,0 +1,175 @@
+================================================================
+  GraphQL API – AirQuality IoT
+  Node.js | Apollo Server 4 | PostgreSQL
+  Lokalno (node index.js): http://localhost:4000
+  Docker:                  http://localhost:4000
+  GraphQL Playground:      http://localhost:4000  (Apollo Sandbox)
+================================================================
+
+BASE URL: http://localhost:4000/graphql
+
+----------------------------------------------------------------
+1. ingestMeasurement  [MUTATION]
+   Scenario: A – High-Frequency Ingestion
+   Opis:     Upis novog merenja
+
+   mutation {
+     ingestMeasurement(
+       deviceId:         "SENSOR_ITALY_01"
+       measurementTime:  "2004-03-10T18:00:00"
+       coGt:             2.6
+       pt08S1Co:         1360
+       nmhcGt:           150
+       c6H6Gt:           11.9
+       pt08S2Nmhc:       1046
+       noxGt:            166
+       pt08S3Nox:        1056
+       no2Gt:            113
+       pt08S4No2:        1692
+       pt08S5O3:         1268
+       temperature:      13.6
+       relativeHumidity: 48.9
+       absoluteHumidity: 0.7578
+     ) {
+       id
+       deviceId
+       measurementTime
+       temperature
+     }
+   }
+
+----------------------------------------------------------------
+2. measurement  [QUERY]
+   Opis: Jedno merenje po ID-u
+
+   query {
+     measurement(id: "1") {
+       id
+       deviceId
+       measurementTime
+       temperature
+       relativeHumidity
+     }
+   }
+
+   Ako ne postoji → vraća null
+
+----------------------------------------------------------------
+3. measurements  [QUERY]
+   Opis: Sva merenja sa filterom i paginacijom
+
+   query {
+     measurements(
+       from:     "2004-03-10T00:00:00"
+       to:       "2004-03-11T00:00:00"
+       page:     1
+       pageSize: 10
+     ) {
+       total
+       page
+       pageSize
+       measurements {
+         id
+         deviceId
+         measurementTime
+         temperature
+         relativeHumidity
+       }
+     }
+   }
+
+   # Scenario B – klijent sa lošom vezom traži samo 2 polja:
+   query {
+     measurements(page: 1, pageSize: 10) {
+       measurements {
+         temperature
+         relativeHumidity
+       }
+     }
+   }
+
+----------------------------------------------------------------
+4. measurementsByDevice  [QUERY]
+   Opis: Merenja konkretnog uređaja, opcioni filter po vremenu
+
+   query {
+     measurementsByDevice(
+       deviceId: "SENSOR_ITALY_01"
+       from:     "2004-03-10T00:00:00"
+       to:       "2004-03-11T00:00:00"
+       page:     1
+       pageSize: 50
+     ) {
+       total
+       page
+       pageSize
+       measurements {
+         id
+         measurementTime
+         temperature
+         relativeHumidity
+       }
+     }
+   }
+
+----------------------------------------------------------------
+5. aggregates  [QUERY]
+   Scenario: C – Heavy Querying
+   Opis:     Agregacije grupisane po satu ili danu
+
+   query {
+     aggregates(
+       from:     "2004-03-10T00:00:00"
+       to:       "2004-03-31T00:00:00"
+       deviceId: "SENSOR_ITALY_01"
+       groupBy:  "day"
+     ) {
+       period
+       count
+       avgTemperature
+       avgRelativeHumidity
+       avgCoGt
+       avgNoxGt
+       avgNo2Gt
+       minTemperature
+       maxTemperature
+     }
+   }
+
+================================================================
+  SCENARIO B – ZAŠTO JE GRAPHQL BOLJI OD REST-A
+================================================================
+
+  REST uvek vraća SVA polja (over-fetching):
+  GET /api/measurements → 15 polja po merenju
+
+  GraphQL vraća SAMO tražena polja:
+  query { measurements { measurements { temperature relativeHumidity } } }
+  → samo 2 polja, manji odgovor, manje podataka kroz mrežu
+
+  Ovo je ključna razlika koju meriš u Postman-u (veličina odgovora).
+
+================================================================
+  TESTIRANJE
+================================================================
+
+  Apollo Sandbox (browser):
+  http://localhost:4000
+  → interaktivni GraphQL editor, autocomplete, dokumentacija
+
+  curl:
+  curl -X POST http://localhost:4000/ \
+    -H "Content-Type: application/json" \
+    -d '{"query": "{ measurements(pageSize: 5) { total measurements { id temperature } } }"}'
+
+  Postman:
+  New Request → GraphQL → URL: http://localhost:4000
+  → uneseš query direktno
+
+================================================================
+  PORTOVI
+================================================================
+  Lokalno:  http://localhost:4000
+  Docker:   http://localhost:4000
+
+================================================================
