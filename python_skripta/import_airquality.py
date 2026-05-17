@@ -18,7 +18,7 @@ DB_CONFIG = {
     "password": "postgres",   # ← promeni ako je drugačija lozinka
 }
 
-CSV_PATH   = "dataset/AirQuality.csv"
+CSV_PATH   = "./dataset/AirQuality.csv"
 DEVICE_ID  = "SENSOR_ITALY_01"   # dataset nema device_id, dodajemo ručno
 BATCH_SIZE = 500                  # INSERT u grupama radi brzine
 
