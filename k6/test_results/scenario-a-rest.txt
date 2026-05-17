@@ -1,0 +1,59 @@
+strucnjak@machine:~/iot-airquality-project/k6$ k6 run scenario-a-rest.js
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: scenario-a-rest.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 500 max VUs, 3m45s max duration (incl. graceful stop):
+              * default: Up to 500 looping VUs for 3m15s over 7 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+
+
+  █ THRESHOLDS 
+
+    http_req_duration
+    ✓ 'p(95)<2000' p(95)=30.85ms
+
+    http_req_failed
+    ✓ 'rate<0.05' rate=0.00%
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 863439  4425.494575/s
+    checks_succeeded...: 100.00% 863439 out of 863439
+    checks_failed......: 0.00%   0 out of 863439
+
+    ✓ status je 201
+    ✓ odgovor ima id
+    ✓ latencija ispod 500ms
+
+    HTTP
+    http_req_duration..............: avg=13.2ms   min=1.52ms   med=9.49ms   max=190.63ms p(90)=26.51ms  p(95)=30.85ms 
+      { expected_response:true }...: avg=13.2ms   min=1.52ms   med=9.49ms   max=190.63ms p(90)=26.51ms  p(95)=30.85ms 
+    http_req_failed................: 0.00%  0 out of 287813
+    http_reqs......................: 287813 1475.164858/s
+
+    EXECUTION
+    iteration_duration.............: avg=114.12ms min=101.84ms med=110.49ms max=294.03ms p(90)=127.61ms p(95)=131.96ms
+    iterations.....................: 287813 1475.164858/s
+    vus............................: 4      min=1           max=500
+    vus_max........................: 500    min=500         max=500
+
+    NETWORK
+    data_received..................: 151 MB 773 kB/s
+    data_sent......................: 124 MB 634 kB/s
+
+
+
+
+running (3m15.1s), 000/500 VUs, 287813 complete and 0 interrupted iterations
+default ✓ [======================================] 000/500 VUs  3m15s
+strucnjak@machine:~/iot-airquality-project/k6$ 

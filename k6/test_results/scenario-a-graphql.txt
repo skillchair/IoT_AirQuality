@@ -1,0 +1,61 @@
+strucnjak@machine:~/iot-airquality-project/k6$ k6 run *graphql*
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: scenario-a-graphql.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 500 max VUs, 3m45s max duration (incl. graceful stop):
+              * default: Up to 500 looping VUs for 3m15s over 7 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+
+
+  █ THRESHOLDS 
+
+    http_req_duration
+    ✓ 'p(95)<2000' p(95)=148.59ms
+
+    http_req_failed
+    ✓ 'rate<0.05' rate=0.00%
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 731108 3748.636114/s
+    checks_succeeded...: 99.47% 727289 out of 731108
+    checks_failed......: 0.52%  3819 out of 731108
+
+    ✓ status je 200
+    ✓ nema GraphQL grešaka
+    ✓ odgovor ima id
+    ✗ latencija ispod 500ms
+      ↳  97% — ✓ 178958 / ✗ 3819
+
+    HTTP
+    http_req_duration..............: avg=79.26ms  min=1.57ms   med=68.88ms  max=853.51ms p(90)=138.07ms p(95)=148.59ms
+      { expected_response:true }...: avg=79.26ms  min=1.57ms   med=68.88ms  max=853.51ms p(90)=138.07ms p(95)=148.59ms
+    http_req_failed................: 0.00%  0 out of 182777
+    http_reqs......................: 182777 937.159029/s
+
+    EXECUTION
+    iteration_duration.............: avg=179.77ms min=101.82ms med=169.33ms max=954.26ms p(90)=238.52ms p(95)=249.01ms
+    iterations.....................: 182777 937.159029/s
+    vus............................: 3      min=1           max=500
+    vus_max........................: 500    min=500         max=500
+
+    NETWORK
+    data_received..................: 62 MB  317 kB/s
+    data_sent......................: 141 MB 723 kB/s
+
+
+
+
+running (3m15.0s), 000/500 VUs, 182777 complete and 0 interrupted iterations
+default ✓ [======================================] 000/500 VUs  3m15s
+strucnjak@machine:~/iot-airquality-project/k6$ 

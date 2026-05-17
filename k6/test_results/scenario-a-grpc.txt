@@ -1,0 +1,139 @@
+strucnjak@machine:~/iot-airquality-project/k6$ k6 run scenario-a-grpc.js
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: scenario-a-grpc.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 500 max VUs, 3m45s max duration (incl. graceful stop):
+              * default: Up to 500 looping VUs for 3m15s over 7 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+ERRO[0163] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:59882->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0163] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50596->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0163] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:54910->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0171] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:33554->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0171] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:35666->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0175] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:45388->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0175] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:45396->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0175] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:35370->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0175] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:55628->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0183] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:49796->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0183] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:49124->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0183] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:57656->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0183] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:53414->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0183] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:49144->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0184] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:44528->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0184] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50968->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0184] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:53448->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0188] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:57876->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0188] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:58826->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0188] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:38198->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0188] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:38266->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0188] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:53416->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0188] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:57620->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0196] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52138->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0196] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:53054->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0200] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:44782->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0204] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:55320->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0204] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:55296->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0204] GoError: context deadline exceeded: connection error: desc = "error reading server preface: read tcp 127.0.0.1:44426->127.0.0.1:8081: read: connection reset by peer"
+default at reflect.methodValueCall (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-a-grpc.js:29:17(7))  executor=ramping-vus scenario=default source=stacktrace
+
+
+  █ THRESHOLDS 
+
+    grpc_req_duration
+    ✓ 'p(95)<2000' p(95)=54.03ms
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 127930  602.75909/s
+    checks_succeeded...: 100.00% 127930 out of 127930
+    checks_failed......: 0.00%   0 out of 127930
+
+    ✓ status je OK
+    ✓ odgovor ima id
+
+    EXECUTION
+    iteration_duration...: avg=568.82ms min=101.7ms med=107.68ms max=1m0s     p(90)=257.21ms p(95)=2.8s   
+    iterations...........: 63994 301.516182/s
+    vus..................: 1     min=1        max=500
+    vus_max..............: 500   min=500      max=500
+
+    NETWORK
+    data_received........: 11 MB 51 kB/s
+    data_sent............: 27 MB 129 kB/s
+
+    GRPC
+    grpc_req_duration....: avg=11.21ms  min=1.09ms  med=3.39ms   max=691.41ms p(90)=32.62ms  p(95)=54.03ms
+
+
+
+
+running (3m32.2s), 000/500 VUs, 63994 complete and 3 interrupted iterations
+default ✓ [======================================] 000/500 VUs  3m15s
+strucnjak@machine:~/iot-airquality-project/k6$

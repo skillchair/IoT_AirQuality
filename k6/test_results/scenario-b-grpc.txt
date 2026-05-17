@@ -1,0 +1,53 @@
+strucnjak@machine:~/iot-airquality-project/k6$ k6 run scenario-b-grpc.js
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: scenario-b-grpc.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 500 max VUs, 3m45s max duration (incl. graceful stop):
+              * default: Up to 500 looping VUs for 3m15s over 7 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+
+
+  █ THRESHOLDS 
+
+    grpc_req_duration
+    ✗ 'p(95)<2000' p(95)=7.9s
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 24278   124.493683/s
+    checks_succeeded...: 100.00% 24278 out of 24278
+    checks_failed......: 0.00%   0 out of 24278
+
+    ✓ status je OK
+    ✓ ima merenja
+
+    EXECUTION
+    iteration_duration...: avg=2.79s min=127.29ms med=1.44s max=11.38s p(90)=7.19s p(95)=8.01s
+    iterations...........: 12139  62.246842/s
+    vus..................: 8      min=1       max=500
+    vus_max..............: 500    min=500     max=500
+
+    NETWORK
+    data_received........: 22 MB  115 kB/s
+    data_sent............: 3.2 MB 16 kB/s
+
+    GRPC
+    grpc_req_duration....: avg=2.68s min=24.93ms  med=1.33s max=11.27s p(90)=7.08s p(95)=7.9s 
+
+
+
+
+running (3m15.0s), 000/500 VUs, 12139 complete and 0 interrupted iterations
+default ✓ [======================================] 000/500 VUs  3m15s
+ERRO[0195] thresholds on metrics 'grpc_req_duration' have been crossed 
+strucnjak@machine:~/iot-airquality-project/k6$ 

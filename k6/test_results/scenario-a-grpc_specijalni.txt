@@ -1,0 +1,52 @@
+strucnjak@machine:~/iot-airquality-project/k6$ k6 run --stage 10s:500,20s:500 scenario-a-grpc.js
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: scenario-a-grpc.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 500 max VUs, 1m0s max duration (incl. graceful stop):
+              * default: Up to 500 looping VUs for 30s over 2 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+
+
+  █ THRESHOLDS 
+
+    grpc_req_duration
+    ✓ 'p(95)<2000' p(95)=79.67ms
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 57234   953.841694/s
+    checks_succeeded...: 100.00% 57234 out of 57234
+    checks_failed......: 0.00%   0 out of 57234
+
+    ✓ status je OK
+    ✓ odgovor ima id
+
+    EXECUTION
+    iteration_duration...: avg=153.43ms min=101.73ms med=119.38ms max=391.1ms  p(90)=246.93ms p(95)=272.12ms
+    iterations...........: 28617  476.920847/s
+    vus..................: 500    min=45       max=500
+    vus_max..............: 500    min=500      max=500
+
+    NETWORK
+    data_received........: 4.8 MB 81 kB/s
+    data_sent............: 12 MB  203 kB/s
+
+    GRPC
+    grpc_req_duration....: avg=22.87ms  min=1.15ms   med=8.42ms   max=194.15ms p(90)=62.16ms  p(95)=79.67ms 
+
+
+
+
+running (1m00.0s), 000/500 VUs, 28617 complete and 500 interrupted iterations
+default ✓ [======================================] 500/500 VUs  30s
+strucnjak@machine:~/iot-airquality-project/k6$ 

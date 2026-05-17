@@ -1,0 +1,648 @@
+request timeout"
+ERRO[0202] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0202] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0202] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0202] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0202] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0203] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0203] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0204] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0204] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0205] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0205] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0206] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0206] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0207] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0207] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0208] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0208] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0209] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0209] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+WARN[0210] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+WARN[0210] Request Failed                                error="Post \"http://localhost:4000\": request timeout"
+ERRO[0210] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+ERRO[0210] TypeError: Cannot read property 'errors' of undefined
+running at nema GraphQL grešaka (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:54:57(6))
+        at go.k6.io/k6/v2/internal/js/modules/k6.(*K6).Check-fm (native)
+        at default (file:///home/strucnjak/iot-airquality-project/k6/scenario-c-graphql.js:52:8(24))  executor=ramping-vus scenario=default source=stacktrace
+
+
+  █ THRESHOLDS 
+
+    http_req_duration
+    ✗ 'p(95)<5000' p(95)=1m0s
+
+    http_req_failed
+    ✗ 'rate<0.05' rate=24.90%
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 6552   29.513276/s
+    checks_succeeded...: 71.36% 4676 out of 6552
+    checks_failed......: 28.63% 1876 out of 6552
+
+    ✗ status je 200
+      ↳  75% — ✓ 1405 / ✗ 466
+    ✗ nema GraphQL grešaka
+      ↳  75% — ✓ 1405 / ✗ 466
+    ✓ ima rezultata
+    ✗ latencija ispod 2000ms
+      ↳  32% — ✓ 461 / ✗ 944
+
+    HTTP
+    http_req_duration..............: avg=19.65s min=141.91ms med=9.28s max=1m0s   p(90)=1m0s   p(95)=1m0s  
+      { expected_response:true }...: avg=6.27s  min=141.91ms med=5.9s  max=59.35s p(90)=10.09s p(95)=10.23s
+    http_req_failed................: 24.90% 466 out of 1871
+    http_reqs......................: 1871   8.42786/s
+
+    EXECUTION
+    iteration_duration.............: avg=19.85s min=402.77ms med=9.55s max=1m0s   p(90)=1m0s   p(95)=1m0s  
+    iterations.....................: 1871   8.42786/s
+    vus............................: 2      min=1           max=500
+    vus_max........................: 500    min=500         max=500
+
+    NETWORK
+    data_received..................: 1.7 GB 7.7 MB/s
+    data_sent......................: 887 kB 4.0 kB/s
+
+
+
+
+running (3m42.0s), 000/500 VUs, 1871 complete and 114 interrupted iterations
+default ✓ [======================================] 000/500 VUs  3m15s
+ERRO[0222] thresholds on metrics 'http_req_duration, http_req_failed' have been crossed 
+strucnjak@machine:~/iot-airquality-project/k6$ 
